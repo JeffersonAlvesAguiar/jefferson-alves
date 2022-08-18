@@ -22,7 +22,6 @@ function Career() {
       <BoxContainer>
         <Box>
           <p>
-            <h1>Teste em produção da aplicação</h1>
             <h1>DEV FRONT END_</h1>
             <br />
             Olá, me chamo Jefferson Alves.
