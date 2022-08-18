@@ -20,7 +20,6 @@ export const BoxNavBar = styled.div`
 `;
 
 export const BoxCareer = styled.div`
-  display: none;
   width: 98%;
   height: 80vh;
   background-color: #0e0e10;
