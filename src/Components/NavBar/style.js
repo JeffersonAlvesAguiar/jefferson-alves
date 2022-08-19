@@ -40,7 +40,7 @@ export const Box = styled.div`
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     h1 {
-      font-size: 0.9rem;
+      font-size: 1rem;
       color: white;
       position: relative;
       left: 0rem;

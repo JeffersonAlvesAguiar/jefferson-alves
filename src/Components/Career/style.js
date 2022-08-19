@@ -6,7 +6,7 @@ export const BoxContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
