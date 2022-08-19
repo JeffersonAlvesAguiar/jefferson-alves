@@ -332,12 +332,15 @@ export const Box = styled.div`
 
   @media only screen and (min-width: 320px) and (max-width: 711px) {
     width: 20rem;
-    height: 35rem;
+    height: 29rem;
     font-size: 0.6rem;
     align-items: center;
     justify-content: center;
+    h1{
+      font-size: 1.2rem;
+    }
     p{
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
 `;
