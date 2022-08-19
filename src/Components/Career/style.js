@@ -14,10 +14,16 @@ export const BoxContainer = styled.div`
   color: white;
   @media only screen and (min-width: 712px) and (max-width: 1024px) {
     flex-direction: column;
+    .BoxCard{
+      display: none;
+    }
   }
 
   @media only screen and (min-width: 320px) and (max-width: 711px) {
     flex-direction: column;
+    .BoxCard{
+      display: none;
+    }
   }
 `;
 
@@ -325,13 +331,14 @@ export const Box = styled.div`
   }
 
   @media only screen and (min-width: 320px) and (max-width: 711px) {
-    width: 16rem;
-    height: 8rem;
+    width: 20rem;
+    height: 35rem;
     font-size: 0.6rem;
     align-items: center;
     justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    p{
+      font-size: 1.1rem;
+    }
   }
 `;
 

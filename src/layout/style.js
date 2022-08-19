@@ -28,13 +28,13 @@ export const BoxCareer = styled.div`
   background-color: #0e0e10;
   border-radius: 30px;
   @media only screen and (min-width: 712px) and (max-width: 1024px) {
-    max-width: 40rem;
+    max-width: 100%;
     max-height: 60rem;
   }
 
   @media only screen and (min-width: 320px) and (max-width: 711px) {
-    max-width: 19rem;
-    max-height: 27rem;
+    max-width: 100%;
+    max-height: 100vh;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }

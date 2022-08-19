@@ -48,7 +48,7 @@ function Career() {
           </p>
         </Box>
 
-        <Box>
+        <Box className="BoxCard">
           <Grid>
             <Card>
               <Icon>
