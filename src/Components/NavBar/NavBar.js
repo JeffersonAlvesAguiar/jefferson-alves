@@ -4,10 +4,11 @@ function NavBar() {
   return (
     <>
       <Box>
-          <a>Sobre mim</a>
-          <a>Portfólio</a>
-          <a href="#">Linkedin</a>
-          <a href="#">Git Hub</a>
+        <h1>Jefferson Alves</h1>
+        <a>Sobre mim</a>
+        <a>Portfólio</a>
+        <a href="#">Linkedin</a>
+        <a href="#">Git Hub</a>
       </Box>
     </>
   );

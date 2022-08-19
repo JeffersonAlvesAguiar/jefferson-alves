@@ -31,6 +31,13 @@ export const BoxCareer = styled.div`
     max-width: 40rem;
     max-height: 60rem;
   }
+
+  @media only screen and (min-width: 320px) and (max-width: 711px) {
+    max-width: 19rem;
+    max-height: 27rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 `;
 
 export const BoxSkills = styled.div`

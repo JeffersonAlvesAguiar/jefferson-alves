@@ -15,6 +15,10 @@ export const BoxContainer = styled.div`
   @media only screen and (min-width: 712px) and (max-width: 1024px) {
     flex-direction: column;
   }
+
+  @media only screen and (min-width: 320px) and (max-width: 711px) {
+    flex-direction: column;
+  }
 `;
 
 export const Box = styled.div`
@@ -319,11 +323,27 @@ export const Box = styled.div`
   @media only screen and (min-width: 712px) and (max-width: 1024px) {
     width: 30rem;
   }
+
+  @media only screen and (min-width: 320px) and (max-width: 711px) {
+    width: 16rem;
+    height: 8rem;
+    font-size: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 `;
 
 export const Grid = styled.div`
   display: flex;
   gap: 1rem;
+
+  @media only screen and (min-width: 320px) and (max-width: 711px) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 `;
 
 export const Card = styled.div`
@@ -369,8 +389,11 @@ export const Card = styled.div`
   }
 
   @media only screen and (min-width: 712px) and (max-width: 1024px) {
-    width: 10rem;
-    height: 9rem;
+    display:none;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 711px) {
+    display:none;
   }
 `;
 
@@ -389,6 +412,10 @@ export const Icon = styled.div`
   @media only screen and (min-width: 712px) and (max-width: 1024px) {
     width: 7rem;
     height: 3rem;
+    .icon {
+      width: 6rem;
+      height: 2rem;
+    }
   }
 `;
 
@@ -419,6 +446,11 @@ export const ProgressBar = styled.div`
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
   }
+
+  @media only screen and (min-width: 712px) and (max-width: 1024px) {
+    width: 6rem;
+    height: 2rem;
+  }
 `;
 
 export const ProgressHtml = styled.div`
@@ -429,6 +461,11 @@ export const ProgressHtml = styled.div`
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   background-color: aqua;
+
+  @media only screen and (min-width: 712px) and (max-width: 1024px) {
+    width: 4rem;
+    height: 0.5rem;
+  }
 `;
 
 export const ProgressCss = styled.div`
