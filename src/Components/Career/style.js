@@ -12,6 +12,9 @@ export const BoxContainer = styled.div`
   padding-right: 2rem;
   gap: 2rem;
   color: white;
+  @media only screen and (min-width: 712px) and (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 
 export const Box = styled.div`
@@ -312,6 +315,15 @@ export const Box = styled.div`
       }
     }
   }
+
+  @media only screen and (min-width: 712px) and (max-width: 1024px) {
+    width: 30rem;
+  }
+`;
+
+export const Grid = styled.div`
+  display: flex;
+  gap: 1rem;
 `;
 
 export const Card = styled.div`
@@ -355,6 +367,11 @@ export const Card = styled.div`
       transform: scale(1) rotateX(-360deg);
     }
   }
+
+  @media only screen and (min-width: 712px) and (max-width: 1024px) {
+    width: 10rem;
+    height: 9rem;
+  }
 `;
 
 export const Icon = styled.div`
@@ -368,6 +385,10 @@ export const Icon = styled.div`
   .icon {
     width: 13rem;
     height: 4rem;
+  }
+  @media only screen and (min-width: 712px) and (max-width: 1024px) {
+    width: 7rem;
+    height: 3rem;
   }
 `;
 
@@ -448,9 +469,4 @@ export const ProgressReactJs = styled.div`
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   background-color: aqua;
-`;
-
-export const Grid = styled.div`
-  display: flex;
-  gap: 3rem;
 `;

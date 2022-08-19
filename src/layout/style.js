@@ -4,6 +4,9 @@ export const BoxContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  @media only screen and (min-width: 712px) and (max-width: 1024px) {
+    gap: 5rem;
+  }
 `;
 
 export const Box = styled.div`
@@ -20,10 +23,14 @@ export const BoxNavBar = styled.div`
 `;
 
 export const BoxCareer = styled.div`
-  width: 98%;
-  height: 80vh;
+  max-width: 80rem;
+  max-height: 30rem;
   background-color: #0e0e10;
   border-radius: 30px;
+  @media only screen and (min-width: 712px) and (max-width: 1024px) {
+    max-width: 40rem;
+    max-height: 60rem;
+  }
 `;
 
 export const BoxSkills = styled.div`

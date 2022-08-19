@@ -3,11 +3,11 @@ import { Box } from "./style";
 
 function App() {
   return (
-    <div>
+    <>
       <Box>
         <Layout />
       </Box>
-    </div>
+    </>
   );
 }
 

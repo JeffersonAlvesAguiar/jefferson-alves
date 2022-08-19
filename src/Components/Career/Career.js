@@ -18,7 +18,7 @@ import {
 
 function Career() {
   return (
-    <div>
+    <>
       <BoxContainer>
         <Box>
           <p>
@@ -114,7 +114,7 @@ function Career() {
           </Grid>
         </Box>
       </BoxContainer>
-    </div>
+    </>
   );
 }
 
