@@ -1,5 +1,5 @@
 import { Box, BoxContainer } from "./style";
-import Imagem from "../../img/imagem.jpeg";
+import Gif from "../../img/giftech.gif";
 
 function Career() {
   return (
@@ -31,9 +31,6 @@ function Career() {
             estiver em busca de inspiração espero que meu portfolio tenha
             ajudado em sua jornada.
           </p>
-        </Box>
-        <Box>
-          <img src={Imagem} />
         </Box>
       </BoxContainer>
     </>

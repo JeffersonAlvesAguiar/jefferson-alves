@@ -77,8 +77,4 @@ export const Box = styled.div`
   p {
     font-size: 20px;
   }
-  img {
-    width: 100%;
-    height: 100vh;
-  }
 `;
