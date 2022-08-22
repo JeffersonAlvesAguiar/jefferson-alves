@@ -1,52 +1,130 @@
 import styled from "styled-components";
 
 export const Box = styled.div`
-  height: 5rem;
+  width: 100%;
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   gap: 3rem;
+  color: #ffffff;
+
+  background-color: #18181b;
   h1 {
-    font-size: 2rem;
-    color: white;
-    display: flex;
     position: absolute;
-    left: 4rem;
+    left: 10rem;
+    font-size: 22px;
   }
   a {
-    font-size: 2rem;
-    color: white;
-    text-decoration: none;
+    font-size: 20px;
     cursor: pointer;
   }
-  a:hover {
-    font-size: 2.01rem;
+
+  -webkit-animation: Box 2s ease-in both;
+  animation: Box 2s ease-in both;
+
+  @-webkit-keyframes Box {
+    0% {
+      -webkit-transform: translateY(-45px);
+      transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+      transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
   }
-  @media only screen and (min-width: 712px) and (max-width: 1024px) {
-    h1 {
-      font-size: 2rem;
-      color: white;
-      position: relative;
-      left: 0rem;
+  @keyframes Box {
+    0% {
+      -webkit-transform: translateY(-45px);
+      transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      opacity: 1;
     }
-    a {
-      display: none;
+    24% {
+      opacity: 1;
     }
-  }
-  @media only screen and (min-width: 320px) and (max-width: 711px) {
-    height: 1.3rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    h1 {
-      font-size: 1rem;
-      color: white;
-      position: relative;
-      left: 0rem;
+    40% {
+      -webkit-transform: translateY(-24px);
+      transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
     }
-    a {
-      display: none;
+    65% {
+      -webkit-transform: translateY(-12px);
+      transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+      opacity: 1;
     }
   }
 `;

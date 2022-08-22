@@ -1,40 +1,110 @@
 import styled from "styled-components";
 
 export const BoxContainer = styled.div`
-  width: 53rem;
-  display: flex;
-  align-items: center;
-  padding: 4rem 4rem;
-  gap: 4rem;
-  color: white;
-`;
-
-export const Card = styled.div`
-  width: 15rem;
-  height: 10rem;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 30px;
+  gap: 2rem;
+
   background-color: #18181b;
 `;
 
-export const Title = styled.div`
-  width: 15rem;
-  height: 10rem;
+export const Box = styled.div`
+  width: 11rem;
+  height: 11rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 30px;
-  background-color: #18181b;
-`;
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
 
-export const Progress = styled.div`
-  width: 15rem;
-  height: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 30px;
-  background-color: #18181b;
+    -webkit-animation: span 1.5s ease-in infinite both;
+	        animation: span 1.5s ease-in infinite both;
+
+          @-webkit-keyframes span {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes span {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+  }
+  .icon {
+    width: 6rem;
+    height: 6rem;
+    color: #ffffff;
+  }
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+  }
 `;

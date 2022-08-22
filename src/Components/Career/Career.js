@@ -1,20 +1,5 @@
-import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io";
-import { FaReact } from "react-icons/fa";
-import { SiStyledcomponents } from "react-icons/si";
-import {
-  BoxContainer,
-  Box,
-  Card,
-  Icon,
-  Title,
-  ProgressBar,
-  ProgressHtml,
-  ProgressCss,
-  ProgressStyleComponents,
-  ProgressJavaScript,
-  ProgressReactJs,
-  Grid,
-} from "./style";
+import { Box, BoxContainer } from "./style";
+import Teste from "../../img/teste.jpeg";
 
 function Career() {
   return (
@@ -46,72 +31,6 @@ function Career() {
             estiver em busca de inspiração espero que meu portfolio tenha
             ajudado em sua jornada.
           </p>
-        </Box>
-
-        <Box className="BoxCard">
-          <Grid>
-            <Card>
-              <Icon>
-                <IoLogoHtml5 className="icon" />
-              </Icon>
-              <Title>Html</Title>
-              <ProgressBar>
-                <span>
-                  <ProgressHtml />
-                </span>
-              </ProgressBar>
-            </Card>
-
-            <Card>
-              <Icon>
-                <IoLogoCss3 className="icon" />
-              </Icon>
-              <Title>CSS</Title>
-              <ProgressBar>
-                <span>
-                  <ProgressCss />
-                </span>
-              </ProgressBar>
-            </Card>
-
-            <Card>
-              <Icon>
-                <SiStyledcomponents className="icon" />
-              </Icon>
-              <Title>Style-Components</Title>
-              <ProgressBar>
-                <span>
-                  <ProgressStyleComponents />
-                </span>
-              </ProgressBar>
-            </Card>
-          </Grid>
-
-          <Grid>
-            <Card>
-              <Icon>
-                <IoLogoJavascript className="icon" />
-              </Icon>
-              <Title>JavaScript</Title>
-              <ProgressBar>
-                <span>
-                  <ProgressJavaScript />
-                </span>
-              </ProgressBar>
-            </Card>
-
-            <Card>
-              <Icon>
-                <FaReact className="icon" />
-              </Icon>
-              <Title>React JS</Title>
-              <ProgressBar>
-                <span>
-                  <ProgressReactJs />
-                </span>
-              </ProgressBar>
-            </Card>
-          </Grid>
         </Box>
       </BoxContainer>
     </>

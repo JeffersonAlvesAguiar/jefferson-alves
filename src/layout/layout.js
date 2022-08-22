@@ -1,39 +1,19 @@
 import NavBar from "../Components/NavBar/";
-import Portfolio from "../Components/Portfolio/Portfolio.js";
+import Portfolio from "../Components/Portfolio/";
 import Career from "../Components/Career/";
 import Skills from "../Components/Skills/";
-import {
-  BoxContainer,
-  Box,
-  BoxNavBar,
-  BoxCareer,
-  BoxSkills,
-  BoxPortfolio,
-} from "./style";
+import { Teste } from "./style";
 
 function Layout() {
   return (
-    <div>
-      <BoxContainer>
-        <BoxNavBar>
-          <NavBar />
-        </BoxNavBar>
-
-        <Box>
-          <BoxCareer>
-            <Career />
-          </BoxCareer>
-
-          <BoxSkills>
-            <Skills />
-          </BoxSkills>
-
-          <BoxPortfolio>
-            <Portfolio />
-          </BoxPortfolio>
-        </Box>
-      </BoxContainer>
-    </div>
+    <>
+      <Teste>
+        <NavBar />
+      </Teste>
+      <Career />
+      <Skills />
+      <Portfolio />
+    </>
   );
 }
 
