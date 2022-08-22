@@ -8,7 +8,13 @@ export const BoxContainer = styled.div`
   justify-content: center;
   gap: 2rem;
 
-  background-color: #18181b;
+  background-image: linear-gradient(
+    -225deg,
+    #ac32e4 0%,
+    #7918f2 48%,
+    #4801ff 100%
+  );
+  //background-color: #18181b;
 `;
 
 export const Box = styled.div`
