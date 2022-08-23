@@ -10,9 +10,10 @@ export const Card = styled.div`
     width: 30rem;
     height: 15rem;
   }
-  p {
+  a {
+    width: 100%;
     font-size: 1.25rem;
-    margin-left: 0.3rem;
+    text-align: center;
     cursor: pointer;
   }
 `;

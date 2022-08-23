@@ -17,35 +17,35 @@ export default () => {
       <SwiperSlide>
         <Card>
           <img src={Gif} />
-          <p>Slide 1</p>
+          <a>Slide 1</a>
         </Card>
       </SwiperSlide>
 
       <SwiperSlide>
       <Card>
           <img src={Gif} />
-          <p>Slide 2</p>
+          <a>Slide 2</a>
         </Card>
       </SwiperSlide>
 
       <SwiperSlide>
       <Card>
           <img src={Gif} />
-          <p>Slide 3</p>
+          <a>Slide 3</a>
         </Card>
       </SwiperSlide>
 
       <SwiperSlide>
       <Card>
           <img src={Gif} />
-          <p>Slide 4</p>
+          <a>Slide 4</a>
         </Card>
       </SwiperSlide>
 
       <SwiperSlide>
       <Card>
           <img src={Gif} />
-          <p>Slide 5</p>
+          <a>Slide 5</a>
         </Card>
       </SwiperSlide>
     </Swiper>
