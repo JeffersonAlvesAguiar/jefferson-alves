@@ -7,7 +7,7 @@ function Career() {
       <BoxContainer>
         <Box>
           <p>
-            <h1>DEV FRONT END_ teste</h1>
+            <h1>DEV FRONT END_ teste2</h1>
             <br />
             Olá, me chamo Jefferson Alves.
             <br />

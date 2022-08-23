@@ -131,14 +131,14 @@ export const Box = styled.div`
   //-------------------------------
 
   @media (max-width: 478px) {
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-left: 0.15rem;
     padding-right: 0.15rem;
     h1 {
-      font-size: 17px;
+      font-size: 20px;
     }
     p {
-      font-size: 10px;
+      font-size: 18px;
     }
   }
 
