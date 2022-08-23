@@ -12,51 +12,11 @@ export const BoxContainer = styled.div`
   text-align: left;
 
   //-------------------------------
-  //STYLE RESPONSIVE 0px X 712px
+  //STYLE RESPONSIVE 486px X 712px
   //-------------------------------
-  @media (max-width: 712px) {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  //-------------------------------
-  //STYLE RESPONSIVE 0px X 540px
-  //-------------------------------
-  @media (max-width: 712px) {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  //-------------------------------
-  //STYLE RESPONSIVE 0px X 414px
-  //-------------------------------
-
-  @media (max-width: 414px) {
-    padding-top: 2rem;
-    padding-bottom: 0rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    text-align: left;
-    h1 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 15px;
-    }
-  }
-
-  //-------------------------------
-  //STYLE RESPONSIVE 0px X 280px
-  //-------------------------------
-
-  @media (max-width: 280px) {
-    padding-top: 1rem;
+  @media screen and (min-width: 0px) and (max-width: 912px) {
     padding-left: 1rem;
     padding-right: 1rem;
-    text-align: left;
-    h1 {
-      font-size: 19px;
-    }
   }
 `;
 export const Box = styled.div`
@@ -126,11 +86,11 @@ export const Box = styled.div`
     font-size: 22px;
   }
 
-    //-------------------------------
-  //STYLE RESPONSIVE 0px X 478px
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 912px
   //-------------------------------
 
-  @media (max-width: 478px) {
+  @media screen and (min-width: 0px) and (max-width: 912px) {
     padding-top: 3rem;
     padding-left: 0.15rem;
     padding-right: 0.15rem;
@@ -143,19 +103,107 @@ export const Box = styled.div`
   }
 
   //-------------------------------
-  //STYLE RESPONSIVE 0px X 280px
+  //STYLE RESPONSIVE 0px X 411px
   //-------------------------------
-
-  @media (max-width: 280px) {
+  @media screen and (min-width: 0px) and (max-width: 411px) {
     padding-top: 3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: left;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    h1 {
+      font-size: 19px;
+    }
+    p {
+      font-size: 17px;
+    }
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 352px
+  //-------------------------------
+  @media screen and (min-width: 0px) and (max-width: 352px) {
+    padding-top: 3rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    h1 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 305px
+  //-------------------------------
+  @media screen and (min-width: 0px) and (max-width: 305px) {
+    padding-top: 1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    h1 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 292px
+  //-------------------------------
+  @media screen and (min-width: 0px) and (max-width: 292px) {
+    padding-top: 1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
     h1 {
       font-size: 17px;
     }
     p {
+      font-size: 15px;
+    }
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 268px
+  //-------------------------------
+  @media screen and (min-width: 0px) and (max-width: 268px) {
+    padding-top: 1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    h1 {
+      font-size: 16px;
+    }
+    p {
       font-size: 14px;
+    }
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 237px
+  //-------------------------------
+  @media screen and (min-width: 0px) and (max-width: 237px) {
+    padding-top: 0.1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    h1 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 209px
+  //-------------------------------
+  @media screen and (min-width: 0px) and (max-width: 209px) {
+    padding-top: 0.1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    h1 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
     }
   }
 `;
