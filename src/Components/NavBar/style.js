@@ -135,4 +135,36 @@ export const Box = styled.div`
       opacity: 1;
     }
   }
+
+  .iconMenu {
+    display: none;
+  }
+
+  //-----------------------------------------
+  //STYLE RESPONSIVE 0px X 768px
+  //-----------------------------------------
+  @media (max-width: 768px) {
+    a {
+      display: none;
+    }
+    .iconMenu {
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      position: absolute;
+      right: 11rem;
+    }
+  }
+
+   //-----------------------------------------
+  //STYLE RESPONSIVE 0px X 414px
+  //-----------------------------------------
+  @media (max-width: 414px){
+    h1{
+      left: 2rem;
+    }
+    .iconMenu{
+      right: 2rem;
+    }
+  }
 `;

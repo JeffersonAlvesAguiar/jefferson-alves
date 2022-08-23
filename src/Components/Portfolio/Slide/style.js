@@ -13,5 +13,6 @@ export const Card = styled.div`
   p {
     font-size: 1.25rem;
     margin-left: 0.3rem;
+    cursor: pointer;
   }
 `;

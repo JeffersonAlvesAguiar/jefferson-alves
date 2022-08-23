@@ -10,6 +10,33 @@ export const BoxContainer = styled.div`
   padding-left: 10rem;
   padding-right: 10rem;
   text-align: left;
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 712px
+  //-------------------------------
+@media (max-width: 712px) {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 414px
+  //-------------------------------
+
+  @media (max-width: 414px) {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: left;
+    background-color: aqua;
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
 `;
 export const Box = styled.div`
   width: 100%;
@@ -75,6 +102,6 @@ export const Box = styled.div`
   }
 
   p {
-    font-size: 20px;
+    font-size: 22px;
   }
 `;
