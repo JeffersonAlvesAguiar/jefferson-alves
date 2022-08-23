@@ -85,6 +85,9 @@ export const Box = styled.div`
   p {
     font-size: 22px;
   }
+  span{
+    font-weight: bold;
+  }
 
   //-------------------------------
   //STYLE RESPONSIVE 0px X 912px
