@@ -25,7 +25,7 @@ function Career() {
             <br />
             Na busca por conhecimento desenvolvi alguns projetos pessoais e
             acadêmicos que tenho imenso orgulho e que deixarei disponível com
-            link para acesso na sessão <sapn>Portfólio</sapn>; em <span>Git Hub</span> você
+            link para acesso na sessão <sapan>Portfólio</sapan>; em <span>Git Hub</span> você
             encontrará o código fonte. Caso esteja à procura de um dev front-end
             estarei a disposição para responder e avaliar a possibilidade. Se
             estiver em busca de inspiração, espero que meu portfólio tenha
