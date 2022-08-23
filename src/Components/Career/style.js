@@ -14,7 +14,7 @@ export const BoxContainer = styled.div`
 export const Box = styled.div`
   width: 100%;
   height: 100vh;
-  margin-top: 2rem;
+  padding-top: 6rem;
 
   h1 {
     -webkit-animation: h1 0.3s ease-in infinite both;

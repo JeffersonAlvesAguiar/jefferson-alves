@@ -22,6 +22,8 @@ export const Box = styled.div`
     font-size: 22px;
   }
   a {
+    text-decoration: none;
+    color: #ffffff;
     font-size: 20px;
     cursor: pointer;
   }
