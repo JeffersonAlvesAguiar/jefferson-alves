@@ -125,7 +125,23 @@ export const Box = styled.div`
   p {
     font-size: 22px;
   }
-  
+
+    //-------------------------------
+  //STYLE RESPONSIVE 0px X 478px
+  //-------------------------------
+
+  @media (max-width: 478px) {
+    padding-top: 2rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    h1 {
+      font-size: 17px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+
   //-------------------------------
   //STYLE RESPONSIVE 0px X 280px
   //-------------------------------
