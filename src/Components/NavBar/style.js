@@ -141,6 +141,38 @@ export const Box = styled.div`
   }
 
   //-----------------------------------------
+  //STYLE RESPONSIVE 0px X 912px
+  //-----------------------------------------
+  @media (max-width: 912px) {
+    a {
+      display: none;
+    }
+    .iconMenu {
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      position: absolute;
+      right: 11rem;
+    }
+  }
+
+  //-----------------------------------------
+  //STYLE RESPONSIVE 0px X 820px
+  //-----------------------------------------
+  @media (max-width: 820px) {
+    a {
+      display: none;
+    }
+    .iconMenu {
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      position: absolute;
+      right: 11rem;
+    }
+  }
+
+  //-----------------------------------------
   //STYLE RESPONSIVE 0px X 768px
   //-----------------------------------------
   @media (max-width: 768px) {
@@ -156,15 +188,42 @@ export const Box = styled.div`
     }
   }
 
-   //-----------------------------------------
-  //STYLE RESPONSIVE 0px X 414px
   //-----------------------------------------
-  @media (max-width: 414px){
-    h1{
+  //STYLE RESPONSIVE 0px X 540px
+  //-----------------------------------------
+  @media (max-width: 768px) {
+    h1 {
       left: 2rem;
     }
-    .iconMenu{
+    .iconMenu {
       right: 2rem;
+    }
+  }
+
+  //-----------------------------------------
+  //STYLE RESPONSIVE 0px X 414px
+  //-----------------------------------------
+  @media (max-width: 414px) {
+    h1 {
+      left: 2rem;
+    }
+    .iconMenu {
+      right: 2rem;
+    }
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 280px
+  //-------------------------------
+
+  @media (max-width: 280px) {
+    height: 3rem;
+    h1 {
+      font-size: 1rem;
+    }
+    .iconMenu {
+      width: 1rem;
+      height: 1rem;
     }
   }
 `;

@@ -15,7 +15,14 @@ export const BoxContainer = styled.div`
     #7918f2 48%,
     #4801ff 100%
   );
-  //background-color: #18181b;
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 280px
+  //-------------------------------
+
+  @media (max-width: 280px) {
+    gap: 0.1rem;
+  }
 `;
 
 export const Box = styled.div`
@@ -112,5 +119,20 @@ export const Box = styled.div`
     font-size: 1.5rem;
     text-align: center;
     color: #ffffff;
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 280px
+  //-------------------------------
+
+  @media (max-width: 280px) {
+    height: 5rem;
+    .icon {
+      width: 3rem;
+      height: 3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
   }
 `;

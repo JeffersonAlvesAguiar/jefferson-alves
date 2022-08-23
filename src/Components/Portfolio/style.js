@@ -15,4 +15,14 @@ export const Box = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 280px
+  //-------------------------------
+
+  @media (max-width: 280px) {
+    h1 {
+      font-size: 20px;
+    }
+  }
 `;
