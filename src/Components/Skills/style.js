@@ -7,6 +7,7 @@ export const BoxContainer = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 
   background-image: linear-gradient(
     -225deg,

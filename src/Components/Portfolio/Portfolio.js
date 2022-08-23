@@ -1,10 +1,17 @@
-import { BoxContainer } from "./style";
+import Slide from "./Slide/";
+import { BoxContainer, Box } from "./style";
 
 function Portfolio() {
   return (
     <>
       <BoxContainer>
-        <h1>Portfólio</h1>
+        <Box>
+          <h1>Alguns dos meus projetos</h1>
+        </Box>
+
+        <Box>
+          <Slide />
+        </Box>
       </BoxContainer>
     </>
   );
