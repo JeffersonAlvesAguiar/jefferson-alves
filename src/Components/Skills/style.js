@@ -15,14 +15,6 @@ export const BoxContainer = styled.div`
     #7918f2 48%,
     #4801ff 100%
   );
-
-  //-------------------------------
-  //STYLE RESPONSIVE 0px X 280px
-  //-------------------------------
-
-  @media (max-width: 280px) {
-    gap: 0.1rem;
-  }
 `;
 
 export const Box = styled.div`
@@ -122,11 +114,27 @@ export const Box = styled.div`
   }
 
   //-------------------------------
-  //STYLE RESPONSIVE 0px X 280px
+  //STYLE RESPONSIVE 0px X 591px
   //-------------------------------
 
-  @media (max-width: 280px) {
+  @media screen and (min-width: 0px) and (max-width: 591px) {
+    width: 5rem;
     height: 5rem;
+    .icon {
+      width: 4rem;
+      height: 4rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  //-------------------------------
+  //STYLE RESPONSIVE 0px X 191px
+  //-------------------------------
+  @media screen and (min-width: 0px) and (max-width: 191px) {
+    width: 4rem;
+    height: 4rem;
     .icon {
       width: 3rem;
       height: 3rem;

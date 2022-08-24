@@ -17,12 +17,22 @@ export const Box = styled.div`
   justify-content: center;
 
   //-------------------------------
-  //STYLE RESPONSIVE 0px X 280px
+  //STYLE RESPONSIVE 0px X 375px
   //-------------------------------
 
-  @media (max-width: 280px) {
+  @media screen and (min-width: 0px) and (max-width: 375px) {
     h1 {
       font-size: 20px;
+    }
+  }
+
+    //-------------------------------
+  //STYLE RESPONSIVE 0px X 235px
+  //-------------------------------
+
+  @media screen and (min-width: 0px) and (max-width: 235px) {
+    h1 {
+      font-size: 15px;
     }
   }
 `;

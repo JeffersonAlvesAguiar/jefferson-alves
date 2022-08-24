@@ -1,5 +1,4 @@
 import { Box, BoxContainer } from "./style";
-import Gif from "../../img/giftech.gif";
 
 function Career() {
   return (
@@ -27,7 +26,7 @@ function Career() {
             acadêmicos que tenho imenso orgulho e que deixarei disponível com
             link para acesso na sessão <span>Portfólio</span>; em <span>Git Hub</span> você
             encontrará o código fonte. Caso esteja à procura de um dev front-end
-            estarei disponível para responder e avaliar a possibilidade. Se
+            estarei à disposição para responder e avaliar a possibilidade. Se
             estiver em busca de inspiração, espero que meu portfólio tenha
             ajudado em sua jornada.
           </p>
