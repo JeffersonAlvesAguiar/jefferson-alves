@@ -1,13 +1,15 @@
 import { Box } from "./style";
-import { FiMenu } from "react-icons/fi";
-import { AiOutlineClose } from "react-icons/ai";
+import { HiOutlinePlus } from "react-icons/hi";
 
 function MenuMobile() {
+  const Menu = () => {
+    console.log("Menu Mobile");
+  };
+
   return (
     <>
       <Box>
-        <FiMenu className="iconMenuOf" />
-        <AiOutlineClose className="iconMenuOpen" />
+        <HiOutlinePlus className="iconMenu" onClick={Menu} />
       </Box>
     </>
   );
