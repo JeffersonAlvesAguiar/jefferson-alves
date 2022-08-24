@@ -135,10 +135,6 @@ export const Box = styled.div`
     }
   }
 
-  .iconMenu {
-    display: none;
-  }
-
   //-----------------------------------------
   //STYLE RESPONSIVE 0px X 912px
   //-----------------------------------------
@@ -148,13 +144,6 @@ export const Box = styled.div`
     }
     h1 {
       left: 1.25rem;
-    }
-    .iconMenu {
-      width: 2rem;
-      height: 2rem;
-      display: flex;
-      position: absolute;
-      right: 1.25rem;
     }
   }
 `;

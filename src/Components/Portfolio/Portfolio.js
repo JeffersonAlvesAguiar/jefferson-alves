@@ -6,7 +6,7 @@ function Portfolio() {
     <>
       <BoxContainer>
         <Box>
-          <h1>Alguns dos meus projetos</h1>
+          <h1>Portfólio</h1>
         </Box>
 
         <Box>

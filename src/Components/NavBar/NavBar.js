@@ -1,5 +1,5 @@
 import { Box } from "./style";
-import { FiMenu } from "react-icons/fi";
+import MenuMobile from "./MenuMobile/MenuMobile";
 
 const UrlLinkedin = "https://www.linkedin.com/in/jefferson-alves-22a76a208/";
 const UrlGitHub = "https://github.com/JeffersonAlvesAguiar";
@@ -17,7 +17,7 @@ function NavBar() {
           Git Hub
         </a>
         <a>Portfólio</a>
-        <FiMenu className="iconMenu"/>
+        <MenuMobile />
       </Box>
     </>
   );
