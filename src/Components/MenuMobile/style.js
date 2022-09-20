@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Box = styled.div`
-    display: none;
+  display: none;
 
   @media screen and (min-width: 0px) and (max-width: 912px) {
     display: flex;
@@ -13,9 +13,6 @@ export const Box = styled.div`
       display: flex;
       position: absolute;
       right: 1.25rem;
-    }
-    .iconMenu:active{
-      transform: rotate(45deg);
     }
   }
 `;
