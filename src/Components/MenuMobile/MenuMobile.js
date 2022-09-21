@@ -15,7 +15,9 @@ function MenuMobile() {
     <>
       <Box onClick={handleOpen}>
         {openMenu !== true ? (
-          (<HiOutlinePlus className="iconMenu" />)
+          <HiOutlinePlus className="iconMenu">
+            <h1>teste</h1>
+          </HiOutlinePlus>
         ) : (
           <AiOutlineClose className="iconMenu" />
         )}

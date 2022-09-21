@@ -3,7 +3,8 @@ import Portfolio from "../Components/Portfolio/";
 import Career from "../Components/Career/";
 import Skills from "../Components/Skills/";
 import Footer from "../Components/Footer/";
-import { Teste } from "./style";
+import MenuMobile from "../Components/MenuMobile/";
+import { Teste, Teste2 } from "./style";
 
 function Layout() {
   return (

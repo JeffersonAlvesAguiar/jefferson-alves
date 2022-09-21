@@ -1,4 +1,5 @@
 import { Box } from "./style";
+import MenuMobile from "../MenuMobile/";
 
 const UrlLinkedin = "https://www.linkedin.com/in/jefferson-alves-22a76a208/";
 const UrlGitHub = "https://github.com/JeffersonAlvesAguiar";
@@ -16,6 +17,7 @@ function NavBar() {
           Git Hub
         </a>
         <a>Portfólio</a>
+        <MenuMobile />
       </Box>
     </>
   );
