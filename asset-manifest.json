@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jefferson-alves/static/css/main.46cef12e.css",
-    "main.js": "/jefferson-alves/static/js/main.3a65a8df.js",
+    "main.js": "/jefferson-alves/static/js/main.5c753320.js",
     "static/media/giftech.gif": "/jefferson-alves/static/media/giftech.44f76c11748cde26d022.gif",
     "index.html": "/jefferson-alves/index.html",
     "main.46cef12e.css.map": "/jefferson-alves/static/css/main.46cef12e.css.map",
-    "main.3a65a8df.js.map": "/jefferson-alves/static/js/main.3a65a8df.js.map"
+    "main.5c753320.js.map": "/jefferson-alves/static/js/main.5c753320.js.map"
   },
   "entrypoints": [
     "static/css/main.46cef12e.css",
-    "static/js/main.3a65a8df.js"
+    "static/js/main.5c753320.js"
   ]
 }
