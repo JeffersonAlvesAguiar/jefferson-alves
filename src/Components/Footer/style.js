@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 30rem;
   color: #ffffff;
 
   background-image: linear-gradient(
@@ -16,4 +16,13 @@ export const Container = styled.div`
     #4801ff 100%
   );
 `;
-export const Box = styled.div``;
+export const Box = styled.div`
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    a{
+      color: #fff;
+    }
+  }
+`;
